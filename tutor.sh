@@ -42,7 +42,7 @@ function wait_answer(){
 	done
 
 	print_and_eval "echo -e \"$2\" | grep $3 \"$ans\""
-	echo "верно"
+	echo "Верно"
 	sleep 3
 }
 
