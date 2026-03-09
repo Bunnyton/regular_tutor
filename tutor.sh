@@ -4,6 +4,7 @@ set +o histexpand
 
 
 function print_and_eval(){
+	alias grep="grep --color=always"
 	echo -n "$@ : "
 	eval "$@"
 }
@@ -256,6 +257,3 @@ echo ""
 echo ""
 echo ""
 echo "Регулярные выражения регулируют выражение лица"
-
-
-
